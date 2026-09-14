@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    grid-column: 1 / -1;
+}
+
+div{
+    height: 40px;
+    width: 40px;
+    color: blue;
+    background-color: brown;
+    border: 2px;
+    border-style: dotted;
+}
